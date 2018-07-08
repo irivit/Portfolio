@@ -1,47 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Irina Machado</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <link rel="icon" href="assets/images/ruvicon.png"> 
+    <link rel="icon" href="assets/images/ruvicon.png">
     <script src="main.js"></script>
 </head>
-<body background="assets/images/crossword.png">
-    <nav class="navbar navbar-default">
+
+<body>
+
+    <div class="jumbotron">
+        <h1>You have a problem!</h1>
+        <h1>...But I have your
+            <strong>solution</strong>
+        </h1>
+    </div>
+    <nav id="top" class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <header class="name navbar-header navbar-right" >Irina Machado</header>
+                <!-- <header class="name navbar-header navbar-right">Irina Machado</header> -->
             </div>
-        
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right menu">
-                    <li><a href="index.html">About me</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="#about">About me</a>
+                    </li>
+                    <li>
+                        <a href="#portfol">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#cont">Contact</a>
+                    </li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
-    
 
     <div class="container">
-
         <div class="row">
             <div>
-                <h2 class="aboutme">About</h2>
+                <h2 id="about" class="aboutme">This is me...</h2>
             </div>
         </div>
 
@@ -49,21 +68,157 @@
             <div class="col-xs-12 col-md-4">
                 <div class="media">
                     <div class="media-center">
-                        <img class="media-object imgaboutme" src="assets/images/IMG_3030.JPG" alt="Irina Machado photo" class="img">
+                        <img class="media-object imgaboutme" src="assets/images/IMG_3030.JPG" alt="Irina Machado photo">
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-md-8">
                 <div class="media-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec placerat nisl. Suspendisse varius auctor volutpat. Vestibulum facilisis lacus ligula, vitae rhoncus erat dapibus id. In aliquam sed diam ut sollicitudin. Nullam sit amet volutpat ipsum. Morbi sit amet nibh sed lorem condimentum tristique sed ac nisl. Donec in massa dictum nunc molestie commodo ut vitae justo. Proin tellus augue, porta fringilla faucibus sed, dignissim et ipsum. Ut commodo nisi libero, ultrices sodales risus bibendum a. Duis feugiat ex nec erat condimentum facilisis. Nam suscipit urna id mauris tempor, id porttitor neque pulvinar. Etiam egestas feugiat purus, ac feugiat purus ultricies nec. Donec et metus a tortor scelerisque vehicula. Sed fringilla viverra neque in laoreet. </p>
-                    <p> Morbi convallis quis lectus nec vehicula. Suspendisse vitae pretium nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis, nisl lacinia consequat luctus, justo augue commodo tortor, non placerat ligula tellus tempus enim. Sed malesuada magna at tempor congue. Nulla in nulla dapibus, efficitur mauris ac, tempus erat. Mauris sed odio non sem iaculis euismod eget quis arcu. </p>
+                    <p>Irina Machado</p>
+                    <br>
+                    <p>Software enginner and web developer who enjoys the software development and the knowledge of new technologies.</p>
+                    <br>
+                    <p>* Ms. Computer science</p>
+                    <p>* 8 years of experience </p>
+                    <p>* English, Spanish and French</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="footer" >
-        <h6>Copyright</h6>
-    </footer>
+    <div class="separator">
+        <br>
+        <br>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <h2 id="portfol" class="aboutme">Portfolio</h2>
+            </div>
+        </div>
+
+        <div id="portfCont" class="row">
+
+
+            <div class="col-xs-12 col-md-4">
+                <a href="https://irivit.github.io/unit_4_game/" target="_blank">
+                    <img src="./assets/images/diamond2.png" alt="Project 4" class="imgPortfolio">
+                </a>
+                <h4>Math-Game</h4>
+                <p>This game helps you improve your math sum skills </p>
+            </div>
+            <div class="col-xs-12 col-md-4 ">
+                <a href="https://irivit.github.io/Giphy-app/" target="_blank">
+                    <img src="./assets/images/cartoon.png" alt="Project cat" class="imgPortfolio">
+                </a>
+                <h4>Cartoons gif</h4>
+                <p>This is a cartoons gif locator</p>
+            </div>
+            <div class="col-xs-12 col-md-4 ">
+                <a href="https://irivit.github.io/Train/" target="_blank">
+                    <img src="./assets/images/train2.jpg" alt="Project 1" class="imgPortfolio">
+                </a>
+                <h4>Train Scheduler</h4>
+                <p>Web to schedule train arrivals to a station and estimate waiting times</p>
+            </div>
+
+        </div>
+        <div id="portfCont" class="row">
+            <div class="col-xs-12 col-md-4 ">
+                <a href="https://irivit.github.io/TriviaGame/" target="_blank">
+                    <img src="./assets/images/trivia.png" alt="Project 1" class="imgPortfolio">
+                </a>
+                <h4>Trivia</h4>
+                <p>Trivia game to guess famous places and monuments of the world</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <a href="https://dhtran91.github.io/Group2/" target="_blank">
+                    <img src="./assets/images/location.png" alt="Project 1" class="imgPortfolio">
+                </a>
+                <h4>EtinerEZ</h4>
+                <p>Web that suggests an itinerary with the top ten places to know about a given city</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <a href="https://irivit.github.io/Psychic-Game/" target="_blank">
+                    <img src="./assets/images/cristal2.png" alt="Psychic Game" class="imgPortfolio">
+                </a>
+                <h4>Psychic-Game</h4>
+                <p>This is a game that gives you 9 chances to guess a word randomly selected by the computer</p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="separator">
+        <br>
+        <br>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div>
+                <h2 id="cont" class="aboutme">Let's contact</h2>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group">
+                        <label for="Nme">Name:</label>
+                        <input type="text" class="form-control" id="Name" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <button id="btnsub" type="submit" class="btn btn-primary btnsub">Submit</button>
+
+                </form>
+            </div>
+            <div class="col-md-4">
+                <img src="./assets/images/envelope-6_icon-icons.com_65986.png" alt="Sending message" class="message">
+
+            </div>
+        </div>
+    </div>
+    <div id="social-media" class="jumbotron ">
+        <div class="row">
+            <div class="col-md-10">
+                <ul id="sm">
+                    <li>
+                        <a class="socm" href="https://www.linkedin.com/in/irina-machado-ce/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/irivit" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h3>
+                    <a href="#top">Back to top</a>
+                </h3>
+            </div>
+        </div>
+
+
+    </div>
 </body>
+
 </html>
